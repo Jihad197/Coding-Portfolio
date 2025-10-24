@@ -7,7 +7,7 @@ Here, I collect projects, experiments, and small programs that I have created an
 
 ## About Me
 
-I am a student passionate about computational science, mathematics, and programming. <br> 
+I am a student passionate about computational science, mathematics, and programming. 
 This portfolio reflects the skills I have developed and the projects I have built while exploring different programming languages and solving interesting problems.
 
 ---
