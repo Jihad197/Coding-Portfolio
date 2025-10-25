@@ -60,13 +60,49 @@ int main() {
     }
 
     // SCIENTIFIC MODE
-   else if (mode == 2) {
-        printf("\n--- Scientific Mode ---\n");}
-    
-    
-    
+    else if (mode == 2) {
+        printf("\n--- Scientific Mode ---\n");
+        printf("Select options from below:\n");
+        printf(" 1. Matrix Manipulation\n 2. Equation\n 3. Converter\n 4. Ratio\n 5. Functions\n 6. Interpolation ");
+        int sciChoice;
+        printf("\nEnter your choice: ");
+        scanf("%d", &sciChoice);
+
+        switch(sciChoice) {
+        case 1:
+            printf("Matrix Manipulation selected.\n");
+            matrixManipulation();
+            break;
+        case 2:
+            printf("Equation selected.\n");
+        
+            break;
+        case 3:
+            printf("Converter selected.\n");
+            break;
+        case 4:
+            printf("Ratio selected.\n");
+        break;
+        case 5:
+            printf("Functions selected.\n");
+            break;
+        case 6:
+            printf("Interpolation selected.\n");
+            break;
+        default:
+            printf("Invalid choice!\n");
+}
+
+
+
+
+        }
+
+
+
+
     else {
-        printf("Invalid mode selected\n"); // INVALID MODE
+        printf("Invalid mode selected!\n"); // INVALID MODE
     }
 
     return 0;
